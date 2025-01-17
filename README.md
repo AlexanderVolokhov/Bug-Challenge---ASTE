@@ -69,7 +69,7 @@ We (QA Team) have created separate issues (GitHub Issues) for each bug:
 
 2. **Screenshots & HAR Files**  
    - We’ve included **screenshots** in each issue so you can visualize the UI error.  
-   - For **[UI-003] Authorization Issue**, we attached a `HAR` file demonstrating both **failing (401/403)** and **successful (200)** requests with the proper **Basic Auth** header.
+   - For **[UI-002] Authorization Issue**, we attached a `HAR` file demonstrating both **failing (401)** and **successful (200)** requests with the proper **Basic Auth** header using Postman.
 
 3. **Testing the Bugs**  
    - Launch the Sample Benefits Dashboard application (if you have the environment).  
