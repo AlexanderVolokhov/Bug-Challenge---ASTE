@@ -50,15 +50,16 @@ We (QA Team) have created separate issues (GitHub Issues) for each bug:
 1. **[UI-001] Name Fields Reversed**  
    - The table displays the employee’s `firstName` under the “Last Name” column, and `lastName` under “First Name.”  
 
-2. **[UI-002] Favicon 403 Error**  
-   - A `403 Forbidden` appears in the console when the browser automatically requests `favicon.ico`.
-
-3. **[UI-003] Intermittent 401/403 Authorization Issue**  
+2. **[UI-002] Intermittent 401 on /Prod/api/employees + Missing Logout Button Post-Error**  
    - The `/Prod/api/employees` endpoint sometimes returns `401 Unauthorized` or `403 Forbidden` due to missing or expired credentials in the front-end request.  
    - **HAR File**: See `auth-issue.har` for detailed request/response logs.
 
-4. **[UI-004] Table Layout Bug on Smaller Screens**  
+3. **[UI-003] Table Layout Bug on Smaller Screens (Desktop & Mobile) — Actions Column Cut Off**  
    - The right side of the table (including the Actions column) is truncated or hidden when viewed on a narrow window, preventing the user from seeing edit/delete icons.
+
+4. **[UI-004] Favicon 403 Error**  
+   - A `403 Forbidden` appears in the console when the browser automatically requests `favicon.ico`.
+
 
 ## How to View and Reproduce Bugs
 
